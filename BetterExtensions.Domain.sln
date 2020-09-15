@@ -1,8 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99E3BFB9-B4DA-41A3-BA7D-5E43EB0672A5}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions.Domain", "src\BetterExtensions.Domain\BetterExtensions.Domain.csproj", "{719BEF6B-A801-4927-B0E5-A5395C6376E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40ACD108-AA5F-4CF4-831D-9E1A5335E7D2}"
+ProjectSection(SolutionItems) = preProject
+	azure-pipelines.yml = azure-pipelines.yml
+	build.ps1 = build.ps1
+	build.sh = build.sh
+	Directory.build.props = Directory.build.props
+	Dockerfile = Dockerfile
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository Items", "Repository Items", "{C098B140-3307-48F0-90C7-B79F86370F4E}"
+ProjectSection(SolutionItems) = preProject
+	icon.png = icon.png
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F340EE6F-74C1-4FFD-8CEC-33652C5C7DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExtensions.Domain.Tests", "tests\BetterExtensions.Domain.Tests\BetterExtensions.Domain.Tests.csproj", "{81FBF93E-1BCB-4675-81D7-59637915040C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,8 +37,13 @@ Global
 		{719BEF6B-A801-4927-B0E5-A5395C6376E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{719BEF6B-A801-4927-B0E5-A5395C6376E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{719BEF6B-A801-4927-B0E5-A5395C6376E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FBF93E-1BCB-4675-81D7-59637915040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FBF93E-1BCB-4675-81D7-59637915040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FBF93E-1BCB-4675-81D7-59637915040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FBF93E-1BCB-4675-81D7-59637915040C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{719BEF6B-A801-4927-B0E5-A5395C6376E5} = {99E3BFB9-B4DA-41A3-BA7D-5E43EB0672A5}
+		{81FBF93E-1BCB-4675-81D7-59637915040C} = {F340EE6F-74C1-4FFD-8CEC-33652C5C7DEC}
 	EndGlobalSection
 EndGlobal
