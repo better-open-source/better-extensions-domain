@@ -24,3 +24,5 @@
 [build-master-badge]: https://dev.azure.com/better-open-source/better-extensions/_apis/build/status/BetterExtensions.Domain?branchName=master
 [build-develop-badge]: https://dev.azure.com/better-open-source/better-extensions/_apis/build/status/BetterExtensions.Domain?branchName=develop
 [build]: https://dev.azure.com/better-open-source/better-extensions/_build?definitionId=6
+
+## How to use
