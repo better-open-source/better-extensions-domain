@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="100px" src="https://github.com/itkerry/better-extensions-domain/raw/master/icon.png" align="center" />
+    <img width="100px" src="https://github.com/better-open-source/better-extensions-domain/raw/master/icon.png" align="center" />
     <h1 align="center">BetterExtensions | Domain</h1>
     <p align="center">Save your time with set of basic components to work with DDD design pattern</p>
 </p>
